@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center">
+
+    <Spinner
+        android:id="@+id/categorias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/categorias">
+    </Spinner>
+
+    <Button
+        android:id="@+id/explorarDestinos"
+        android:layout_below="@+id/categorias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/explorar_destinos">
+    </Button>
+
+    <Button
+        android:id="@+id/favoritos"
+        android:layout_below="@+id/explorarDestinos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/favoritos">
+    </Button>
+
+    <Button
+        android:id="@+id/recomendaciones"
+        android:layout_below="@+id/favoritos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recomendaciones">
+    </Button>
+
+</RelativeLayout>
