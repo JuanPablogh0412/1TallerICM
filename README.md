@@ -14,4 +14,4 @@ Bllacoz
 
 ## Link a Video de Demostración
 
-[url](https://youtu.be/60t_3RdIdc4)
+[Video Demostrativo Taller 1](https://youtu.be/60t_3RdIdc4)
